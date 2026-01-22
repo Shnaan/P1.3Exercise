@@ -14,8 +14,8 @@
 
     <address>
       Email: <a href="mailto:f.shnaan@gmail.com">f.shanan7@gmail.com</a><br>
-      LinkedIn: <a href="https://www.linkedin.com/in/shnaan/">linkedin</a><br>
-      Github: <a href="https://github.com/Shnaan">github</a>
+      LinkedIn: <a href="https://www.linkedin.com/in/shnaan/">Linkedin</a><br>
+      Github: <a href="https://github.com/Shnaan">GitHub</a>
     </address>
   </header>
 
@@ -182,7 +182,7 @@
     <section>
         <h2>Contact me</h2>
         <!-- conatct form  -->
-             <form action="post" method="post">
+             <form action="#" method="post">
                 <p>
                  Interested in working together or have a question? Send a message and I'll reply soon.
                 </p>
@@ -228,9 +228,72 @@
                  placeholder="Recruiter / Engineer / Manager (optional)"
                  >
                </div>
+               <!-- Reason for contact input  -->
+                <div>
+                <label for="reason">Reason for contact</label>
+                <select  id="reason" name="reason">
+                   <option value="networking">Networking</option>
+                   <option value="job-offer">Jop Offer</option>
+                   <option value="collabration">collabration</option>
+                   <option value="freelance">Freelance</option>
+                   <option value="feed-back">Feed Back</option>
+                </select>
+                </div>
+                <!-- favorite code time checkbox -->
+                 <fieldset>
+                  <legend>When do you prefare to code </legend>
+                  <!-- morning time checkbox-->
+                   <div>
+                       <input type="checkbox" id="time-morning" name="coding-time" value="morning">
+                       <label for="time-morning">Morning 🌅</label>
+                   </div>
+                   <!-- afternoon time checkbox-->
+                   <div>
+                       <input type="checkbox" id="time-afternoon" name="coding-time" value="morning">
+                       <label for="time-afternoon">Afternoon ☀️</label>
+                    
+                   </div>
+                   <!-- nigth time checkbox-->
+                   <div>
+                       <input type="checkbox" id="time-night" name="coding-time" value="morning">
+                       <label for="time-night">Night 🌙</label>
+                   </div>
+                   <!-- time late checkbox-->
+                   <div>
+                        <input type="checkbox" id="time-late" name="coding-time" value="morning">
+                        <label for="time-late">Late night (2 AM 😅)</label>
+                    </div>
+                 </fieldset>
+                 <!-- Message input textarea -->
+                  <div>
+                   <label for="message">Message</label>
+                   <textarea
+                     id="message"
+                     name="message"
+                     required
+                     placeholder="Write your message here..."
 
+                     ></textarea>
+
+                  </div>
+                  <!-- action buttons -->
+                   <div>
+                    <button type="reset">clear</button>
+                    <button type="submit">Submit</button>
+
+                   </div>
 
              </form>
+
+    </section>
+    <!-- connect sectionL -->
+    <section>
+     <p>Let's connect and discuss more about software engineering! Find me on:
+     </p>
+     <ul>
+      <li><a href="https://github.com/Shnaan">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/shnaan/">Linkedin</a></li>
+     </ul>
 
     </section>
     <!-- attribution section -->
